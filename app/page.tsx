@@ -1,16 +1,11 @@
-// import { Container, Title, TopBar } from "@/components/shared/";
+import { Container } from "@/components/shared/container";
+import { Title } from "@/components/shared/title";
 
-// export default function Home() {
-//   return (
-//     <div>
-//       <Container className="mt-10"
-//         <Title size="lg" text="Все пиццы" className="font-black"></Title>
 
-//       </Container>
-//       <Title/>
-//       <Container>
-
-//       </Container>
-//     </div>
-//     );
-// }
+export default function Home() {
+  return (
+    <div>
+        <Container><Title text="Все пиццы" className="font-extrabold" size="xl"/></Container>
+    </div>
+    );
+}
